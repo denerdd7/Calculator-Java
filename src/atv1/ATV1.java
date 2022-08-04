@@ -22,7 +22,7 @@ public class ATV1 {
         Calculadora calc = new Calculadora();
         
         do{             
-            opc = Integer.parseInt(JOptionPane.showInputDialog("Calculadora \n Created by Dener \n\n Escolha uma opção: \n\n 1- Soma \n 2- Subtração \n 3- Mutiplicação \n 4- Divisão \n 5- Potenciação \n\n 0- Sair \n\n"));
+            opc = Integer.parseInt(JOptionPane.showInputDialog(null, "Calculadora \n Created by Dener \n\n Escolha uma opção: \n\n 1- Soma \n 2- Subtração \n 3- Mutiplicação \n 4- Divisão \n 5- Potenciação \n\n 0- Sair \n\n", "Calculadora", 1));
             
         switch(opc){
             case 1:
